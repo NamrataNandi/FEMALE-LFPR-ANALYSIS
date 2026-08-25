@@ -35,4 +35,9 @@ work locally available, and household/caregiving structures likely matter more t
 conventional wisdom assumes, and warrant further investigation.
 
 ## Files
-- `Female_LFP
+- `PLFS_ANALYSIS.ipynb` — full analysis notebook
+- `PLFS_ANALYSIS.xlsx` — merged dataset (PLFS + RBI, 29 states)
+
+## Tools
+Python, pandas, numpy, matplotlib, seaborn, statsmodels, scipy
+
