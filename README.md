@@ -36,7 +36,7 @@ conventional wisdom assumes, and warrant further investigation.
 
 ## Files
 - `PLFS_ANALYSIS.ipynb` — full analysis notebook
-- `PLFS_ANALYSIS.xlsx` — merged dataset (PLFS + RBI, 29 states)
+- `PLFS_ANALYSIS.xlsx` — merged dataset (PLFS + RBI, 28 states + Delhi)
 
 ## Tools
 Python, pandas, numpy, matplotlib, seaborn, statsmodels, scipy
