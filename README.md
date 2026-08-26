@@ -34,6 +34,12 @@ and economic growth — are, at minimum, insufficient on their own. Social norms
 work locally available, and household/caregiving structures likely matter more than
 conventional wisdom assumes, and warrant further investigation.
 
+## Secondary Finding: The Rural-Urban Gap
+While literacy and income do not explain the overall LEVEL of female LFPR, a follow-up analysis found they do show a statistically significant relationship with how evenly that participation is distributed between a state's rural and urban areas. States with a more services-oriented economy and higher female literacy show a smaller rural-urban gap in female LFPR (r = -0.540, p = 0.002 and r = -0.441, p = 0.017, respectively), while more industry-heavy states show a larger gap (r = 0.415, p = 0.025). Per capita income and agricultural share showed
+no significant relationship with this gap.
+
+These three findings remained significant after correcting for multiple comparisons (Benjamini-Hochberg procedure: p = 0.010, 0.042, and 0.042 respectively), indicating they are not results of testing several variables at once.
+
 ## Limitations
 - **Correlation/regression, not causation.** This analysis identifies statistical association (or its absence), not causal mechanisms.
 - **Linear methods only.** OLS regression and Pearson correlation both assume a straight-line relationship, which may not capture the true shape   of these relationships.
