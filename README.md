@@ -34,10 +34,31 @@ and economic growth — are, at minimum, insufficient on their own. Social norms
 work locally available, and household/caregiving structures likely matter more than
 conventional wisdom assumes, and warrant further investigation.
 
+## Limitations
+- **Correlation/regression, not causation.** This analysis identifies statistical association (or its absence), not causal mechanisms.
+- **Linear methods only.** OLS regression and Pearson correlation both assume a straight-line relationship, which may not capture the true shape   of these relationships.
+- **Small sample (n=29).** With 28 states + Delhi, statistical power is limited; a true weak effect may fail to reach significance simply due to   sample size.
+- **Cross-sectional, single time-point.** This analysis compares states at one point in time rather than tracking how these relationships evolve over time within a state.
+- **Omitted variables.** Social norms, household structure, job availability, and safety cannot be measured with the data sources used here, and   likely matter more than what was tested.
+  
+## Literature Context
+This finding is consistent with existing research on Indian labor economics. The "Indian Paradox" (Chatterjee, Desai & Vanneman, 2018) documents a similar disconnect between rising female education and declining female LFPR at the national level. Separately, the "Feminization U-Hypothesis" (Goldin, 1995) — which proposes a non-linear relationship between income and female LFPR — has also failed to find clean empirical support in Indian state-level data in prior studies. This analysis's findings sit within this broader, well-documented puzzle rather than standing as an isolated result.
+
+## Key references:
+- Chatterjee, E., Desai, S., & Vanneman, R. (2018). Indian Paradox: Rising Education, Declining
+  Women's Employment. *Demographic Research*, 38, 855.
+- Desai, S., & Joshi, O. (2019). The Paradox of Declining Female Work Participation in an Era
+  of Economic Growth. *The Indian Journal of Labour Economics*, 62(1), 55-71.
+- Goldin, C. (1995). The U-Shaped Female Labor Force Function in Economic Development and
+  Economic History. In T.P. Schultz (Ed.), *Investment in Women's Human Capital and Economic
+  Development*. University of Chicago Press.
+- Gaddis, I., & Klasen, S. (2014). Economic Development, Structural Change, and Women's Labor
+  Force Participation: A Re-Examination of the Feminization U Hypothesis. *Journal of
+  Population Economics*, 27(3), 639-681.
+  
 ## Files
 - `PLFS_ANALYSIS.ipynb` — full analysis notebook
 - `PLFS_ANALYSIS.xlsx` — merged dataset (PLFS + RBI, 28 states + Delhi)
 
 ## Tools
 Python, pandas, numpy, matplotlib, seaborn, statsmodels, scipy
-
